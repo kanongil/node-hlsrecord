@@ -19,8 +19,8 @@
     "author": "Gil Pedersen <gpdev@gpost.dk>",
     "license": "BSD-2-Clause",
     "files": [
-        "bin",
-        "lib"
+        "bin/hlsrecord",
+        "lib/*.js"
     ],
     "engines": {
         "node": ">=10.12.0"
