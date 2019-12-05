@@ -36,12 +36,12 @@
         "pati": "^1.1.2",
         "readable-stream": "^3.3.0",
         "stream-each": "^1.1.2",
-        "uristream": "^3.0.0",
+        "uristream": "^4.0.1",
         "write-file-atomic": "^3.0.0"
     },
     "devDependencies": {
-        "@hapi/code": "^5.3.1",
-        "@hapi/lab": "^19.0.1"
+        "@hapi/code": "^7.0.0",
+        "@hapi/lab": "^21.0.0"
     },
     "repository": {
         "type": "git",
