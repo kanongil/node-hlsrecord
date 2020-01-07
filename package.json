@@ -36,7 +36,7 @@
         "pati": "^1.1.2",
         "readable-stream": "^3.3.0",
         "stream-each": "^1.1.2",
-        "uristream": "^4.0.1",
+        "uristream": "^5.0.1",
         "write-file-atomic": "^3.0.0"
     },
     "devDependencies": {
