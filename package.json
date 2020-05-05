@@ -29,6 +29,7 @@
         "@hapi/bounce": "^2.0.0",
         "@hapi/hoek": "^9.0.4",
         "aws-sdk": "^2.649.0",
+        "bl": "^4.0.2",
         "debug": "^4.1.1",
         "hls-segment-reader": "^5.0.0",
         "m3u8parse": "^2.0.1",
@@ -37,7 +38,7 @@
         "pati": "^1.1.2",
         "readable-stream": "^3.3.0",
         "stream-each": "^1.1.2",
-        "uristream": "^5.0.1",
+        "uristream": "^5.0.2",
         "uuidv4": "^6.0.6",
         "write-file-atomic": "^3.0.0"
     },
