@@ -37,7 +37,7 @@
         "pati": "^1.1.2",
         "readable-stream": "^3.3.0",
         "stream-each": "^1.1.2",
-        "uristream": "^5.0.2",
+        "uristream": "^6.0.0",
         "uuidv4": "^6.0.6",
         "write-file-atomic": "^3.0.0"
     },

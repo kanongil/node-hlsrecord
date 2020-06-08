@@ -4,6 +4,5 @@
 
 require('../lib/cli.js').completed().catch((err) => {
 
-    console.error('failed', err);
-    process.exit(1);
+    console.error('fatal error', err);
 });
