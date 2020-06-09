@@ -1,6 +1,6 @@
 {
     "name": "hlsrecord",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "Record HLS-based streams",
     "main": "lib/index.js",
     "bin": {
