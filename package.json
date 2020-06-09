@@ -30,7 +30,7 @@
         "@hapi/hoek": "^9.0.4",
         "aws-sdk": "^2.649.0",
         "debug": "^4.1.1",
-        "hls-segment-reader": "^5.0.0",
+        "hls-segment-reader": "^6.0.0",
         "m3u8parse": "^2.0.1",
         "mime-types": "^2.0.1",
         "noptify": "0.0.3",
