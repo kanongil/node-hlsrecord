@@ -2,7 +2,21 @@
 
 'use strict';
 
-require('../lib/cli.js').completed().catch((err) => {
+const Recorder = require('../lib/cli.js');
+
+Recorder.completed().catch((err) => {
 
     console.error('fatal error', err);
+});
+
+process.once('SIGINT', () => {
+
+    console.log('ctrl-c pressed - stopping recording');
+    Recorder.stop();
+
+    setTimeout(() => {
+
+        console.log('stop timed out - exiting');
+        process.exit(1);
+    }, 30 * 1000).unref();
 });
