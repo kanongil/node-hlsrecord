@@ -30,6 +30,7 @@
         "@hapi/hoek": "^9.0.4",
         "aws-sdk": "^2.649.0",
         "debug": "^4.1.1",
+        "got": "^11.7.0",
         "hls-segment-reader": "^6.0.0",
         "m3u8parse": "^2.0.1",
         "mime-types": "^2.0.1",
@@ -37,13 +38,13 @@
         "pati": "^1.1.2",
         "readable-stream": "^3.3.0",
         "stream-each": "^1.1.2",
-        "uristream": "^6.0.0",
+        "uristream": "^6.1.4",
         "uuidv4": "^6.0.6",
         "write-file-atomic": "^3.0.0"
     },
     "devDependencies": {
         "@hapi/code": "^8.0.1",
-        "@hapi/lab": "^22.0.4"
+        "@hapi/lab": "^24.0.0"
     },
     "repository": {
         "type": "git",
