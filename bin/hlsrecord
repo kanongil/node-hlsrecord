@@ -7,6 +7,7 @@ const Recorder = require('../lib/cli.js');
 Recorder.completed().catch((err) => {
 
     console.error('fatal error', err);
+    process.exit(1);
 });
 
 process.once('SIGINT', () => {
