@@ -27,6 +27,7 @@
     },
     "dependencies": {
         "@aws-sdk/credential-provider-node": "^3.0.0",
+        "@hapi/b64": "^5.0.0",
         "@hapi/bounce": "^2.0.0",
         "@hapi/hoek": "^9.0.4",
         "agentkeepalive": "^4.1.3",
